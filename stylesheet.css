@@ -9,3 +9,11 @@ nav{
 .btn{
     background-color: #FFD829;
 }
+.carousel-item {
+    height: 700px;
+    
+}
+.navbar a {
+    text-decoration: none;
+    color:black;
+  }
