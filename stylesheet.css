@@ -9,10 +9,7 @@ nav{
 .btn{
     background-color: #FFD829;
 }
-.carousel-item {
-    height: 700px;
-    
-}
+
 .navbar a {
     text-decoration: none;
     color:black;
@@ -26,4 +23,25 @@ nav{
     padding: 30px;
 }
 
-
+.carousel-item {
+    height: 900px;
+    top: 53%;
+    width: 1400px;
+    padding-top: 20px;
+    padding-left: 30px;
+    
+    
+}
+.aboutuspic{
+    padding-left:100px;
+    padding-top: 20px;
+}
+.aboutustext{
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 300px;
+}
+.whoarewe{
+    padding-top: 20px;
+    padding-left: 90px;
+}
