@@ -12,50 +12,90 @@
     <title>Jimmy Brittain Jr. Excavating & Services</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-sm sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand">(logo here)</a>
-        <form class="flex">
-          <button class="btn"nav-link active aria-current="page"><a href="index.html">Home</button></a>
-          <button class="btn"><a href="products.html">Products</button></a>
-          <button class="btn"><a href="job.html">Jobs</button></a>
-          <button class="btn"><a href="services.html">Services</button></a>
-          <button class="btn"><a href="aboutus.html">About</button></a>
-          <button class="btn"><a href="help.html">Finished Works</button></a>
-        </form>
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <button class="btn btnborder"nav-link active aria-current="page"><a href="index.html">Home</button></a>
+            </li>
+            <li class="nav-item">
+              <button class="btn btnborder"><a href="products.html">Products</button></a>
+            </li>
+            <li class="nav-item">
+              <button class="btn btnborder"><a href="job.html">Jobs</button></a>
+            </li>
+            <li class="nav-item">
+              <button class="btn btnborder"><a href="services.html">Services</button></a>
+            </li>
+            <li class="nav-item">
+              <button class="btn btnborder"><a href="aboutus.html">About</button></a>
+            </li>
+            <li class="nav-item">
+              <button class="btn btnborder"><a href="help.html">Finished Works</button></a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
-    <!--End of Navbar-->
 
    <!--START OF CAROUSEL-->
-
-   <div id="carouselExampleIndicators" class="carousel slide carousel-fade " data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
+   <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="img/sampleimage1.jpg" class="d-block w-100 h-100" alt="...">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="img/sampleimage1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="img/weird-dog-lizard-hybrid.jpg" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="img/sampleimage2.jpg" class="d-block w-100 h-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="img/fish.jpg" class="d-block w-100 h-100" alt="...">
+        <img src="img/fish.jpg" class="d-block w-100" alt="...">
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
     </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
   </div>
   <!-- END OF CAROUSEL-->
+
+
+
+  <div class="row">
+    <div class="col-md-4 index-text1">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+
+
+    <div class="col-md-4">
+      <img src="img/sampleimage2.jpg" class="indexphoto">
+    </div>
+    
+    <div class="col-md-4 index-text2">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
 
         <!-- Footer -->
       <div class="my-5">
@@ -115,7 +155,7 @@
                       style="width: 60px; background-color: #FFD829; height: 2px"
                       />
                   <p>
-                    If you need any more information or a way to contact us, feel free to use the links to the right!
+                    If you need any more information or a way to contact us, feel free to use the links!
                   </p>
                 </div>
 
@@ -130,10 +170,7 @@
                       />
                   <p>
                     <a href="https://www.facebook.com/Jimmyforhelp/services" class="text-white">Our Facebook Page!</a>
-                  </p>
-                  <p>
-                    <a href="#!" class="text-white">Help</a>
-                  </p>
+                  </p>             
                 </div>
                 <!-- Grid column -->
       

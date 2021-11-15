@@ -14,8 +14,8 @@ nav{
     text-decoration: none;
     color:black;
   }
-.frogdog {
 
+.frogdog {
     width: 600px;
 }
 
@@ -23,15 +23,13 @@ nav{
     padding: 30px;
 }
 
-.carousel-item {
-    height: 900px;
-    top: 53%;
-    width: 1400px;
+.carousel-item{
     padding-top: 20px;
     padding-left: 30px;
-    
-    
+    padding-right: 30px;
 }
+
+
 .aboutuspic{
     padding-left:100px;
     padding-top: 20px;
@@ -62,4 +60,25 @@ nav{
 
 body{
     font-family: "Verdana";
+}
+
+.indexphoto{
+    width: 420px;
+
+    padding-top: 40px;
+}
+.index-text1{
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 40px;
+}
+.index-text2{
+    padding-right: 50px;
+    padding-top: 50px;
+}
+
+.btnborder{
+    border-color:#1c2331;
+    border-width: 10px;
 }
