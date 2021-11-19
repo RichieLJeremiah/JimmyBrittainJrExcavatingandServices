@@ -19,8 +19,11 @@ nav{
     width: 600px;
 }
 
-.padding{
-    padding: 30px;
+.jobpic{
+    padding-top: 30px;
+    width: 350px;
+    padding-left:50px;
+
 }
 
 .carousel-item{
@@ -63,8 +66,7 @@ body{
 }
 
 .indexphoto{
-    width: 420px;
-
+    width: 00px;
     padding-top: 40px;
 }
 .index-text1{
@@ -74,8 +76,10 @@ body{
     padding-right: 40px;
 }
 .index-text2{
+    text-align: left;
     padding-right: 50px;
     padding-top: 50px;
+    padding-left: 50px;
 }
 
 .btnborder{
@@ -120,4 +124,19 @@ body{
       background-color: #FFD829;
       
 
+  }
+  .index-title{
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-size: 60px;
+    
+  }
+  .jobbutton{
+      padding-left: 70px;
+      padding-top:30px;
+      padding-bottom: 40px;
+    
+  }
+  .job-page{
+      padding-top:20px;
+      
   }
