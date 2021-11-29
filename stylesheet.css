@@ -130,13 +130,11 @@ body{
       font-size: 60px;
     
   }
-  .jobbutton{
-      padding-left: 70px;
-      padding-top:30px;
-      padding-bottom: 40px;
-    
-  }
+  
   .job-page{
       padding-top:20px;
       
+  }
+  .jobpic{
+      padding-bottom:30px ;
   }
