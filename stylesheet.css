@@ -138,3 +138,16 @@ body{
   .jobpic{
       padding-bottom:30px ;
   }
+  .services-list{
+      padding-top: 10px;
+      align-content: center;
+      font-weight: bold;
+  }
+
+  .gallery img{
+    height: 250px;
+  }
+  .img-1{
+      width: 400px;
+      padding-top: 20px;
+  }

@@ -1,0 +1,24 @@
+<div class="col-lg-4 mb-4 mb-lg-0">
+
+      <img
+        src="img/4rock.jpg"
+        class="w-100 shadow-1-strong rounded mb-4">
+        <h1 class="caption">#4 Rock (Crushed Concrete)</h1>
+        <P>description</P>
+    </div>
+
+    <div class="col-lg-4 mb-4 mb-lg-0">
+      <img
+        src="img/washrock.jpg"
+        class="w-100 shadow-1-strong rounded mb-4">
+        <h1 class="caption">Wash Rock</h1>
+        <P>description</P>
+
+      <img
+        src="img/slagrock.jpg"
+        class="w-100 shadow-1-strong rounded mb-4">
+        <h1 class="caption">Slag</h1>
+        <P>description</P>
+    </div>
+  </div>
+</div>
