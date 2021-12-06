@@ -39,12 +39,13 @@ nav{
 }
 .aboutustext{
     padding-top: 50px;
-    padding-left: 10px;
+    padding-left: 170px;
     padding-right: 300px;
+    text-align: center;
 }
 .whoarewe{
-    padding-top: 20px;
-    padding-left: 90px;
+    margin-left: 130px;
+    text-align: center;
 }
 
 .gallery{
@@ -135,9 +136,6 @@ body{
       padding-top:20px;
       
   }
-  .jobpic{
-      padding-bottom:30px ;
-  }
   .services-list{
       padding-top: 10px;
       align-content: center;
@@ -157,3 +155,9 @@ body{
     border-radius: 50%;
     margin-top: -6px;
 }
+
+.logo{
+    width: 400px;
+    margin-left: 400px;
+}
+
