@@ -39,8 +39,8 @@ nav{
 }
 .aboutustext{
     padding-top: 50px;
-    padding-left: 170px;
-    padding-right: 300px;
+    padding-left: 100px;
+    padding-right: 100px;
     text-align: center;
 }
 .whoarewe{
@@ -115,11 +115,23 @@ body{
     line-height: 1.33;
     border-radius: 6px;
   }
-  @media screen and (max-width: 770px) {
+  .logo-image{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    margin-top: -6px;
+}
+
+.logo{
+    width: 400px;
+    margin-left: 400px;
+}
+@media screen and (max-width: 770px) {
     .btn {
       margin-bottom: 10px;
     }
-  }
+  
+
   .products-info{
       font-style: italic;
       background-color: #FFD829;
@@ -160,4 +172,4 @@ body{
     width: 400px;
     margin-left: 400px;
 }
-
+}
