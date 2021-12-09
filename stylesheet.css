@@ -121,17 +121,35 @@ body{
     border-radius: 50%;
     margin-top: -6px;
 }
-
-.logo{
+.img-1{
+    height: 400px;
     width: 400px;
-    margin-left: 400px;
+    padding: 10px;
 }
+@media screen and (max-width: 1050px) {
+    .img-1{
+        height: 300px;
+        width: 300px;
+        padding: 10px;
+    }
+
+}
+    
 @media screen and (max-width: 770px) {
     .btn {
       margin-bottom: 10px;
     }
+    .img-1{
+        height: 250px;
+        width: 250px;
+        padding: 10px;
+    }
   
-
+    .logo img{
+        width: 300px;
+        
+        
+    }
   .products-info{
       font-style: italic;
       background-color: #FFD829;
@@ -157,19 +175,21 @@ body{
   .gallery img{
     height: 250px;
   }
-  .img-1{
-      width: 400px;
-      padding-top: 20px;
-  }
+  
   .logo-image{
     width: 46px;
     height: 46px;
     border-radius: 50%;
     margin-top: -6px;
 }
-
-.logo{
-    width: 400px;
-    margin-left: 400px;
 }
+@media screen and (max-width: 420px) { 
+    .logo img{
+        width: 200px;               
+    }
+    .img-1{
+        height: 350px;
+        width: 350px;
+        padding: 10px;
+    }
 }
